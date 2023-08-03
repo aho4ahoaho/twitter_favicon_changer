@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Twitter Favicon Changer",
+    "version": "1.0.0",
+    "description": "Changes the Twitter favicon to the old one.",
+    "permissions": [
+        "tabs",
+        "https://twitter.com/*",
+        "https://x.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://twitter.com/*",
+                "https://x.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
