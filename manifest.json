@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "description": "Changes the Twitter favicon to the old one.",
     "permissions": [
-        "tabs",
+        "activeTab",
         "https://twitter.com/*",
         "https://x.com/*"
     ],
