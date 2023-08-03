@@ -13,7 +13,6 @@
         for (let i = 0; i < 100; i++) {
             const titleElm = document.querySelector("title");
             if (titleElm != null && titleElm.innerText.length > 1) {
-                console.log(titleElm.innerText);
                 //最後の文字がXの場合、Twitterに置き換える
                 if (titleElm.innerText.slice(-1) == "X") {
                     titleElm.innerText = titleElm.innerText.slice(0, -1) + "Twitter";
